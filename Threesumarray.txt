@@ -1,0 +1,114 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace test_6_three_sum_closest
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Three Sum Closest ");
+            Console.WriteLine("Enter the Size Array values");
+            int size = int.Parse(Console.ReadLine());
+            int[] arr = new int[size];
+            int[] sum = new int[100];
+            int[] diff = new int[100];
+                int temp = 0,pos=0;
+            int count=0;
+            string[] value = new string[100];
+           string[] st = new string[100];
+            if (size<3)
+            {
+                Console.WriteLine("The Array size shoulds be greater than 3");
+
+            }
+            else
+            {
+                Console.WriteLine("Enter the Array Values: ");
+                for (int i=0;i<size;i++)
+                {
+                    arr[i] = int.Parse(Console.ReadLine());
+                }
+            }
+            Console.WriteLine("Enter the Target Value: ");
+            int target = int.Parse(Console.ReadLine());
+            for(int i=0;i<size;i++)
+            {
+                
+                for(int j=i;j<size;j++)
+                {
+                    if (i == j)
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        for (int k = i+j; k < size; k++)
+                        {
+                            if(j==k)
+                            {
+                                continue;
+                            }
+                            else
+                            {
+                                sum[count] = arr[i] + arr[j] + arr[k];
+                                //st[count]= arr[i]+ arr[j] + arr[k];
+                                
+                                    st[count]= i.ToString() + j.ToString() + k.ToString();
+                                value[count] = arr[i].ToString()+arr[j].ToString()+arr[k].ToString();
+                                
+                                count++;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            Console.WriteLine(" After sum of all possible combinations are : ");
+            for(int i=0;i<count;i++)
+            {
+                Console.WriteLine(sum[i]);
+            }
+            
+            for (int i = 0; i < count; i++)
+            {
+                              
+                if (sum[i] < target)
+                {
+                    diff[i] = target - sum[i];
+                }
+                else
+                if(sum[i]>=target)
+                {
+                    diff[i] = sum[i] - target;
+                }
+
+
+
+            }
+            Console.WriteLine(" After doing difference are : ");
+            for (int l = 0; l < count; l++)
+            {
+                Console.WriteLine(diff[l]);
+            }
+            int min = diff[0];
+            pos = 0;
+            for(int i=1;i<count;i++)
+            {
+                if(min>diff[i])
+                {
+                    temp = min;
+                    min = diff[i];
+                    diff[i] = temp;
+                    pos = i;
+                }
+            }
+            Console.WriteLine("The Sum that is closest to: {0} the target is: {1} and the index value is: {2} and the values are:{3}",target,sum[pos],st[pos],value[pos]);
+            Console.ReadKey();
+
+        }
+    }
+}

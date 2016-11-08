@@ -1,0 +1,43 @@
+ //char firstChar = 'Q';
+            //bool KeepRunning = true;
+            //do
+            //{
+
+            //    Console.Write("What do u want to do? (Add,Sub,Mul,Did,Quit):");
+            //    string inp = Console.ReadLine();
+            //    firstChar = inp[0];
+            //    KeepRunning = !(firstChar == 'q' || firstChar == 'Q');
+
+            //    if (KeepRunning)
+            //    {
+            //        Console.Write("Enter First num");
+            //        double FirstNum = double.Parse(Console.ReadLine());
+            //        Console.Write("Enter Sec num");
+            //        double SecondNum = double.Parse(Console.ReadLine());
+            //        double Res = 0;
+            //        switch (firstChar)
+            //        {
+            //            case 'a':
+            //            case 'A':
+            //                Res = FirstNum + SecondNum;
+            //                break;
+            //            case 's':
+            //            case 'S':
+            //                Res = FirstNum - SecondNum;
+            //                break;
+            //            case 'm':
+            //            case 'M':
+            //                Res = FirstNum * SecondNum;
+            //                break;
+            //            case 'd':
+            //            case 'D':
+            //                Res = FirstNum / SecondNum;
+            //                break;
+            //            default:
+            //                Res = -1;
+            //                break;
+            //        }
+            //        Console.WriteLine();
+            //        Console.WriteLine("Your result is" + Res);
+            //    }
+            //} while (KeepRunning); 

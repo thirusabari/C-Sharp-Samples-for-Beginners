@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace test1fibo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Fibonacci series:");
+            Console.WriteLine("Enter the Nth nuber :");
+            int num = int.Parse(Console.ReadLine());
+            int first = 0, second = 1, fib = 0;
+            if (num == 1)
+            {
+                Console.WriteLine("The Fibonacci Value is :{0}", first);
+            }
+            else if (num == 2)
+            {
+                Console.WriteLine("The Fibonacci Value is :{0} ", second);
+            }
+            else
+            {
+                while (num != 2)
+                {
+                    fib = first + second;
+                    first = second;
+                    second = fib;
+                    num = num - 1;
+                }
+                Console.WriteLine(" The Fibonacci value is :");
+                Console.WriteLine(fib);
+            }
+            Console.ReadKey();
+        }
+    }
+}

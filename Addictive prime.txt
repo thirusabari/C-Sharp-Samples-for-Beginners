@@ -1,0 +1,78 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace test3additiveprime
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Additive Prime Number");
+           // int below = 100;
+           // int first = 11;
+            int add,j,k=0;
+            int[] sum = new int[100];
+            sum[0] = 0;
+            int count = 0;
+            int count1,count3=0;
+            int[] rem = new int[100];
+            int numof = 100;
+            int[] prime = new int[numof];
+            for (int i = 11; i < numof; i++)
+            {
+                count1 = 0;
+                for (int l = 2; l <= i; l++)
+                {
+                    if (i % l == 0)
+                    {
+                        count1 += 1;
+                    }
+
+                }
+                if (count1 == 1)
+                {
+                    prime[count3] = i;
+                    count3 += 1;
+                }
+            }
+            Console.WriteLine("The first {0} prime numbers are: ", numof);
+            for (int i = 0; i < count3; i++)
+            {
+
+                Console.WriteLine(prime[i]);
+            }
+
+            for (int i = 0; i < count3; i++)
+            {
+                count = 0;
+                add = prime[i];
+                j = 0;
+                while (add != 0)
+                {
+                    rem[j] = add % 10;
+                    add = add / 10;
+                    j++;
+                }
+                sum[k] = rem[0] + rem[1];
+                for (int n = 2; n <= sum[k]; n++)
+                {
+                    if (sum[k] % n == 0)
+                    {
+                        count = count + 1;
+                    }
+                }
+                if (count == 1)
+                {
+                    Console.WriteLine("the Value {0} is a prime Number", prime[i]);
+                }
+
+                k++;
+            }
+
+            Console.ReadKey();
+        }
+    }
+}

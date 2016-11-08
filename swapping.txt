@@ -1,0 +1,10 @@
+// swap
+            ////Console.WriteLine("enter two numbers");
+            ////int x, y;
+            ////x = int.Parse(Console.ReadLine());
+            ////y = int.Parse(Console.ReadLine());
+            ////x = x + y;
+            ////y = x - y;
+            ////x = x - y;
+            ////Console.WriteLine("swaping of two numbers are {0},{1}", x, y);
+            ////Console.ReadLine(); 

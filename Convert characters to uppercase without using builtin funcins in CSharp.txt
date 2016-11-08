@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+ 
+namespace LowerToUpper
+{
+   class LowerToUpper
+   {
+      public static String ConvertToUpperCase(String input)
+      {
+         String output = "";
+         for (int i = 0; i < input.Length; i++)
+         {
+            if (input[i] >= 'a' && input[i] <= 'z')
+            {
+               output += (char)(input[i] - 'a' + 'A');
+            }
+            else
+               output += input[i];
+         }
+         return output;
+      }
+ 
+      static void Main(string[] args)
+      {
+         System.Console.Write("Enter a string: ");
+         String input = System.Console.ReadLine();
+         input = ConvertToUpperCase(input);
+         System.Console.WriteLine("Converted String in Upper Case: " + input);
+      }
+   }  
+}
+ 
+Enter a string: Software and Finance
+
+Converted String in Upper Case: SOFTWARE AND FINANCE
+
+Press any key to continue . . .

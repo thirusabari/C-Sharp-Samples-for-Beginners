@@ -1,0 +1,5 @@
+ var sentences = "hello how are you";
+
+            foreach (var sentence in sentences.TrimEnd('.').Split('.'))
+                Console.WriteLine(sentence.Trim().Split(' ').Count());
+            Console.ReadLine(); 

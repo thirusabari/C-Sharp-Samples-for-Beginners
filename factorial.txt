@@ -1,0 +1,10 @@
+//factorial
+            //Console.WriteLine("enter a number");
+            //int x = int.Parse(Console.ReadLine());
+            //int j = 1;
+            //for(int i=1;i<=x;i++)
+            //{
+            //    j = j * i;
+            //}
+            //Console.WriteLine(j);
+            //Console.ReadLine(); 

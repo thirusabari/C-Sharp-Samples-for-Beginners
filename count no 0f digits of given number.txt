@@ -1,0 +1,26 @@
+
+ static int CountNumberOfDigits(int number)
+        {
+            int numdgits = 0;
+            do
+            {
+                number = number / 10;
+                numdgits++;
+            } while (number > 0);
+            return numdgits;
+        }
+
+        static void Main(string[] args)
+        {
+           
+          
+            
+               
+                int input = Convert.ToInt32(System.Console.ReadLine());
+                //int n = 0;
+               
+
+                int numdigits = CountNumberOfDigits(input);
+
+                System.Console.WriteLine("\nNumber of digits in " + input.ToString() + "is : " + numdigits.ToString());
+            Console.ReadLine(); 

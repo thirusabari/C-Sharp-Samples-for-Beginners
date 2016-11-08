@@ -1,0 +1,34 @@
+static void Main(string[] args)
+        {
+            Console.WriteLine("Enter sentence");
+            string strg = Console.ReadLine();
+            Console.WriteLine("Enter substring");
+            string substr = Console.ReadLine();
+            Program pn = new Program();
+            int index = IndexOf(strg, substr);
+            if (index > 0)
+                Console.WriteLine("Contains substring");
+            else
+                Console.WriteLine("Dosnot contain substring");
+            Console.ReadLine();
+        }  
+		 private static int IndexOf(string str, string substr)
+        {
+            bool match;
+
+            for (int i = 0; i < str.Length - substr.Length + 1; ++i)
+            {
+                match = true;
+                for (int j = 0; j < substr.Length; ++j)
+                {
+                    if (str[i + j] != substr[j])
+                    {
+                        match = false;
+                        break;
+                    }
+                }
+                if (match) return i;
+            }
+
+            return -1;
+        } 

@@ -1,0 +1,30 @@
+string[] names = { "Flag", "Next", "Cup", "Burg", "Yatch", "Nest" };
+        string name = string.Empty;
+        Console.WriteLine("Sorted Strings : ");
+
+        for (int i = 0; i < names.Length; i++)
+        {
+            int c = 0;
+            for (int j = 1; j < names.Length; j++)
+            {
+                if (j > i)
+                {
+                 Sort:
+                    if (names[i][c] != names[j][c])
+                    {
+                        if (names[i][c] > names[j][c])
+                        {
+                            name = names[i];
+                            names[i] = names[j];
+                            names[j] = name;
+                        }
+                    }
+                    else
+                    {
+                        c = c + 1;
+                        goto Sort;
+                    }                        
+                }
+            }
+            Console.WriteLine(names[i]);
+        }
