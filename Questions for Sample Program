@@ -1,0 +1,1003 @@
+Please refer the Following websites for Question. and all Questions from different websites are solved in C Sharp only.
+
+                *   http://www.w3resource.com/csharp-exercises/
+                *   http://codingbat.com/java
+                *   https://www.hackerrank.com/domains/tutorials/30-days-of-code
+                *   http://techbizzers.blogspot.in/2015/07/java-best-programs_43.html?view=mosaic
+                
+                
+                
+                
+And the Questions i am  Solved  are,
+    
+    1.Find the number of vowels in a given string              
+                Input1:”Newyork”
+               Output1:2
+                Hint: irrespective  of case
+
+
+2.Find the sum of maximum and minimum number from a given input array
+                Input:{19,17,12}
+                Output:31
+
+3.Find the number of words are of given length
+                Input1:{“aa”,”b”,”cc”,”ddd”}
+                Input2:2
+                Output1:2
+
+4.Find the sum of the numbers in the given input string array
+                Input{“2AA”,”12”,”ABC”,”c1a”)
+                Output:6 (2+1+2+1)
+                Note in the above array 12 must not considered as such it must be considered as 1,2
+
+5.Create a program to get the hashmap from the given input string array where the key for the hashmap
+  is first three letters of array element in uppercase and the value of hashmap is the element itself
+                Input:{“Goa”,”kerala”,”gujarat”}                                               [string array]
+                Output:{{GOA,goa},{KER,kerala},{GUJ,Gujarat}}               [hashmap]
+
+
+-----------------------------------------------------(VIKAS)
+6.String[] input1=["Vikas","Lokesh",Ashok]
+
+                expected output String: "Vikas,Lokesh,Ashok"
+
+7.Email Validation
+
+String input1="test@gmail.com"
+                1)@ & : should be present;
+                2)@ & . should not be repeated;
+                3)there should be four charcters between @ and .;
+                4)there shouls be atleast 3 characters before @ ;
+                5)the end of mail id shoulsd be .com;
+
+8. Square root calculation
+               ((x1+x2)*(x1+x2))+((y1+y2)*(y1+y2))
+                o/p should be rounded of to int;
+
+9.Calculate wether given year as loeap or not;
+
+
+------------------------------------------------------------(SEKHAR)
+
+10.Count of words in a given string
+
+
+11.I/P hashmap<String String>{"ram:hari","cisco:barfi","honeywell:cs","cts:hari"};
+       i/p 2="hari";
+       o/p string[]={"ram","cts"};
+
+12. (AUB)-(A intersection B)
+                o/p in string array;
+
+13:  convert decimal to binary;
+     o/p is int;
+
+14: input 1[]={"abc","da","ram"};
+                input 2=3;
+                o/p= string ="c$m";
+
+-----------------------------------------------------------------DIWAKAR
+
+16. INPUT1= helloworld
+    INPUT2= 2
+    O/P= helwrd;
+
+17: QUESTION NO 40 AND 41 IN BANGLORE DUMS;
+
+-------------------------------------------------------------RAJESH
+
+18.String[] input={"100","111","10100","10","1111"}
+                output=2;count strings having prefix"10" but "10" not included in count
+                String[] input={"01","01010","1000","10","011"}
+                output=3; count the strings having prefix"10","01" but "10","01" not included
+
+
+19.ArrayList input={"a","d","c","b"};
+  String[] output={"a","b","c","d"};
+
+
+20.input1=1,inoput2=2,onput3=3 --- output=6;
+  input1=1,inoput2=13,onput3=3 --- output=1;
+  input1=13,inoput2=2,onput3=8 --- output=8;
+                if value equal to 13,escape the 13 value as well as next value to 13.
+                sum the remaining values
+
+
+21.input="hello"
+  output="hlo"; Alternative positions...
+
+22.input=9;
+                output=1+3+5+7+9=25  sum of odd number within the input range:
+------------------------------------------------------------------------------------MANIVEL
+
+23.       Input1=”I love my country”;  output---à  “I Love My Country”.
+
+24.       Input1=”Hello World”;  output-------à  “dello WorlH”.
+
+25.       Collect no’s  frm  list1 which is not present in list2 & Collect no’s  frm  list2
+                which is not present in list1 and store it in ---> int[] output1.
+                ex: input1={1,2,3,4}; input2={1,2,3,5};
+                    output1={4,5};
+
+
+26.String array will be given..if a string is Prefix of an any other string in that  array means count..
+
+
+----------------------------------------------------------------------------------RUCHIRA
+27)count the number of words in the string
+                Input string="i work in cognizant.";
+                output=4;
+28)Given input="24/07/1990";
+                String output=tuesday;
+                output should be the day in the particular month and it should be in lowercases.
+29)	int[] input={2,1,4,1,2,3,6};
+                check whether the input is the sequence of 1,2,3. if so-
+                output=true;
+                int [] input={12,1,3,4,5,6};
+                output=false
+
+30) String[] input1={"acd","ert","wtwggb","ert","erryh"};
+                int input2=3;
+                count the elements whose length is equal to input2;
+                int output=3("acd","ert","ert");
+
+31) Hashmap input1={{"Manoj":"RWT"},{"deepu":"RTEY"},{"Ankit":"RWT"}}
+                String input2="RWT";
+                String[] output={"Manoj","Ankit"}
+                strore the key values of the hashmap in the output string[] corresponding to the given input2.
+
+---------------------------------------------------------------------------------------SIVANAND
+32)i/p 1="HelloWorld"
+  i/p 2=2;
+  o/p= Helwrd;
+
+
+33) check whether the string has vowels and count the no of vowels in the string.
+   i/p=ASDFE;
+   o?p=2;
+
+34) if first char of string is a number then false else true.
+    12DFGR=false;
+    SDFG=True;
+
+35)  input String[]={kerala,tamilnadu,goa}
+     o/p = HashMap (KER,kerala);
+                   (TAM,Tamilnadu);
+                   (GOA,goa);
+------------------------------------------------------------------------------------SRIKANTH,NANDHINI,AISHWARYA,BHARANI
+36.input-- String input1="AAA/abb/CCC"
+          char   input2='/'
+   output-- String[] output1;
+           output1[]={"aaa","bba","ccc"};
+   operation-- get the strings from input1  using stringtokenizer
+                     reverse each string
+              then to lower case
+             finally store it in output1[] string array
+
+37. input-- String[] input1={10,101010,1111}
+                    String input2=10
+   output-- String output1
+            output1=1
+
+   operation-- for how many strings input2 mathces as a prefix
+                                of each string in input1
+
+
+38. input-- String input1="Lily"
+           int input2=2
+
+   output-- String output1="LilyLily"
+
+39. input---input1=1;
+                   input2=4;
+                    input3=1;
+   output1=4;
+
+                operation--- print the element which is not repeated
+                      if all the inputs r different sum all inputs
+input---input1=1;
+                   input2=2;
+                    input3=3;
+   output1=6;
+
+40. input1-List1-{apple,orange,grapes}
+    input2-List2-{melon,apple,mango}
+   output={mango,orange}
+                operation-- In 1st list remove strings starting with 'a' or 'g'
+                                    In 2nd list remove strings ending with 'm' or 'e'
+                     Ignore case
+                    return in string array
+
+41.input1- Hello*world
+   output-- boolean(true or false)
+
+   operation-- if the character before and after * are same return true else false
+               if there in no star in the string return false
+               Ignore case
+
+42. input--String input1="xaXafxsd"
+          String output1="aXafsdxx"
+
+    operation-- remove the character "x"(only lower case) from string and place at the end
+
+43.input-- input1=1;
+          input2=2;
+          input3=3;
+
+44.  String input1="Today is monday";
+                int     output1=3
+
+       ---count no of tokens in the string
+
+45. Validate the age
+                  String  input1="26"
+          boolean output1
+   --1st character in input1 should be digit
+   --input1 sholud be greater than zero
+   --age should be between 21 and 45 (inclusive 21 and 45)
+
+46. HashMap<String,Integer> h1={“abc”:50,”efg”:70};
+                if the mark is less than 60 then put the output is the
+                HashMap<String,String> h2={“abc”:”fail”,”efg”:”pass”}
+
+47  givev three input1,input2,input3; eg=1,2,3
+                Output=6 if the input doesn’t contain 13
+   if input1=13
+      input2=2
+      input3=5     ouput=5
+
+  if input1=11
+      input2=13
+      input3=5     ouput=11
+   --number 13 and next to that element sholud skip and do the sum for the remaining elements
+
+----------------------------------------------------------------------------------------------------LITHA
+
+48. check if the no of characters in a string greater than 3 and if there are digits output=false;
+    check  if length of word is 3 and there are no digits then = true
+
+49. String i/p=2012;
+    sTRING I/P2=5
+    IF EXPERIENCE IS GREATER THAN INPUT 2 THEN TRUE;
+
+50 IF GIVEN ARRAY CONTAINS 9 THEN O/P IS TRUE;
+
+
+51: string1[]={a,b,c}
+    string2[]={b,c,d}
+o/p=2
+if repeted elements are there count only once.
+
+---------------------------------------------------------------------------------------SWAPNA
+
+52. in an integer array, in the first four numbers if 9 is present return true else false.
+
+53. input string="hello", n=2
+   output: lolo
+
+54. count the number of occurences of substring in a string
+
+
+55. prove wether an number is ISBN number or not
+    input="0201103311"
+        ISBN number:  sum=0*10+2*9+0*8+1*7+1*6+0*5+3*4+3*3+1*2+1*1
+                                       sum%11==0 then it is ISBN number
+
+56. experience and year of passing are given in string format. first calculate the difference of
+current year and year of pass. if it is greater the=an or equal to experience return true.
+
+------------------------------------------------------------------------------------
+
+
+57.
+input=xxhixx (string)
+output=hixxx (string)
+
+input=xxXXhixx
+output=XXhixxxx
+All the small 'x' must be moved to the end of the string.
+
+58.
+input1=23 (int)
+input2=2  (int)
+input3='*' (char)
+output=46   (int)
+
+Input3 can be any of these '+','-''*','/','%'. Perform the calculator operations.
+
+59.
+input1="hello world is good world" (string)
+input2="world" (string)
+output=2
+
+Count the number of occurance of the input2. The check must be case sensitive.
+
+60.
+input={"a","c","b","d","e"} (Arraylist)
+
+ouput={"a","b","c","d","e"} (string array)
+Get the input and convert it to string array. The output array should be sorted.
+
+61.
+input1="05-02-1988" (string)
+input2="23-04-2013" (string)
+
+ouput=02/05/1988
+Find which date is the oldest.
+Input should be DD-MM-yyyy format and
+the ouput should be in MM/DD/yyyy format.
+
+
+----------------------------------------------------------------------------------PRAKASH
+62.
+input1=23 (int)
+input2=2  (int)
+input3='*' (char)
+output=46   (int)
+
+Input3 can be any of these '+','-''*','/','%'. Perform the calculator operations.
+
+63.
+Check whether the first char is digit or not.
+input=java (string)
+output=False (boolean)
+
+64.
+input={"a","c","b","d","e"} (Arraylist)
+
+ouput={"a","b","c","d","e"} (string array)
+Get the input and convert it to string array. The output array should be sorted.
+
+65.
+input1={1,2,3,4} (int array)
+input2={1,5,2,6} (int array)
+output=2 (int)
+Count the number of common elements in both the array.
+
+66.
+input=("ram":80.5,"prakash":70.4)  (hashmap<string,float> )
+output=("ram":PASS,"prakask":PASS)  (hashmap<string,string>)
+if float value is above 60 then PASS else FAIL.
+
+And another set of programs are
+
+1.A number is given as input. Find the odd digits in the number, add them and find if the sum is odd or not.if even return -1, if odd return 1
+2.A integer array is given as input. find the difference between each element. Return the index of the largest element which has the largest difference gap.
+input: {2,3,4,2,3}
+logic: 2-3=1,3-4=1,4-2=2,2-3=1
+2 is the max diff between 4 and 2,return the index of 4(2)
+output:2
+3. 4.Given two integer arrays. merge the common elements into a new array. find the sum of the elements
+input1:{1,2,3,4}
+input2:{3,4,5,6}
+logic:{3,4}
+output:7
+4. Given two arrayslist. retrieve the odd position elements form first input and even position elemetns from second list. put it into the new arraylist at the same positions from where they are retrieved from.(consider 0th position as even position, and two lists are of same size)
+input1:{12,1,32,3}
+input2:{0,12,2,23}
+output:{0,1,2,3}
+5.  Sum of fibonaaci series upto given input.
+input:3
+logic:1+1+2
+output:4
+6.  Retrieve the odd numbers till given input number. add and subtract it consecutively and return the result.
+Input:9
+Output:1+3-5+7-9=-3
+7. Given date in dd-MM-yyyy format.return the month in full name format(January)
+input:"23-01-2012"
+output:January
+8. Find the day(Friday) of a date input given as MM-dd-yyyy (format)
+input:12-27-2012
+output:Thursday
+9.  Two dates are given as input in "yyyy-MM-dd" format. Find the number of months between the two dates
+input1:"2012-12-01"
+input2:"2012-01-03"
+output:11
+10. arraylist of string type which has name#mark1#mark2#mark3 format. retrieve the name of the student who has scored max marks(total of three)
+input:{"arun#12#12#12","deepak#13#12#12"}
+output:Deepak
+
+11. Two inputs of a string array and a string is received. The array shld be sorted in descending order. The index of second input in a array shld be retrieved.
+input1:{"ga","yb","awe"}
+input2:awe
+output:2
+12.A time input is received as stirng. Find if the hour format is in 12 hour format. the suffix am/pm is case insensitive.
+input:"09:36 am"
+output:true
+13. Retrieve the palindorme-true number set from given number limit and return the sum
+input1:90 
+input2:120
+logic:99+101+111
+output:311
+14. find the max length-word in a given string and return the max-length word. if two words are of same length return the first occuring word of max-length
+input:"hello how are you aaaaa"
+output:hello(length-5)
+
+15.  Get a input string. reverse it and parse it with '-'.
+input:computer
+output:r-e-t-u-p-m-o-c
+
+16. HashMap with regnum as key and mark as value. find the avg of marks whose key is odd.
+input:{12:90,35:90,33:90,56:88}
+output:avg of(90+90) =90
+17.  A integer input is accepted. find the square of individual digits and find their sum.
+input:125
+output:1*1+2*2+5*5
+
+18. Two input strings are accepted. If the two strings are of same length concat them and return, if they are not of same length, reduce the longer string to size of smaller one, and concat them
+input1:"hello"
+input2:"hi" 
+output:"lohi"
+input1:"aaa"
+input2:"bbb"
+output:"aaabbb"
+
+19. accept a string and find if it is of date format "dd/mm/yyyy".
+input:01/13/2012
+output:false
+20. Get a integer array as input. Find the average of the elements which are in the position of prime index
+input:{1,2,3,4,5,6,7,8,9,10}
+logic:3+4+6+8(the indeces are prime numbers)
+output:21
+
+21.Find the extension of a given string file.
+input: "hello.jpeg"
+output: "jpeg"
+
+22. Get two integer arrays as input. Find if there are common elements in the arrays. find the number of common elements.
+input1: {1,2,3,4}
+input2: {3,4,5,6}
+output: 4(3,4,3,4)
+
+23.Find if a given pattern appears in both the input strings at same postions.
+input1: "hh--ww--"
+input2: "rt--er--"
+output: true(false otherwise)
+24. Input a int array. Square the elements in even position and cube the elements in odd position and add them as result.
+input: {1,2,3,4}
+output: 1^3+2^2+3^3+4^2
+
+25. Check whether a given string is palindrome also check whether it has atleast 2 different vowels
+input: "madam"
+output: false(no 2 diff vowels)
+
+26. Find no of characters in a given string which are not repeated.
+input: "hello"
+output: 3
+27. Get a input string. Find if it is a negative number, if true return the absolute value, in other cases return -1.
+input: "-123"
+output: 123
+input: "@123"
+output: -1
+ 
+28.An arraylist of Strings is given as input. The count of the String elements that are not of size input2 string is to be returned.
+input1: {"aaa","bb","cccc","d"}
+input2: "bb"
+output: 3("bb"-length:2)
+29. An array of integers is given.The given element is removed new array is returned.
+input1:{10,10,20,30,76}
+output: {20,20,76}(10 is asked to remove)
+30. Find the number of days between two input dates
+31.Enter yout name and return a string "print the title first and then comma and then first letter of initial name.
+32.Write a program to accept two dates and find the difference.
+33.Write a Program that accepts a string and removes the duplicate characters.
+34.Write a Program which accepts a hash map of integer as key and string as value and print the value which has the highest value for key.
+35.validate a password 
+i) there should be atleast one digit
+ii) there should be atleast one of '#','@' or '$' .
+iii)the password should be of 6 to 20 characters
+iv) there should be more uppercase letter than lower case.
+v) should start with an upper case and end with lower case
+ 
+return 1 for true and -1 for false
+36. find the average of the maximum and minimum number in an integer array
+37.validate the ip address in the form a.b.c.d
+   where a,b,c,d must be between 0and 255
+   if validated return 1 else return 2
+38. find the three consecutive characters in a string. if the string consists any three 
+   consecutive characters return 1 else return -1
+like AAAxyzaaa will return true.
+39.Input a hashmap. Count the keys which are not divisible by 4 and return.
+40.String encrption. replace the odd-index character with next character(if it is 'z' replace with 'a'..if 'a' with 'b' as such), leave the even index as such. returmn the encrypted string.
+41.Retrieve the max from array which is in a odd-index
+42. GIVEN A STRING 555-666-1234
+DISPLAY AS 55-56-661-234?
+43.input1="Rajasthan";
+input2=2;
+input3=5;
+output=hts;
+44.input1={1,2,3}
+input2={3,4,5}
+input3;+(union)
+output:inp1+inp2
+input1:{1,2,3,4,5}
+input 2:{2,3,4,5}
+input3=*(intersection)
+output:inp1*inp2
+INPUT1:{1,2,3,4,5}
+INPUT2:{3,6,7,8,9}
+INPUT3:-(MINUS)
+output:inp1-inp2
+
+45.  input1=committment;
+  output=cmmttment;
+c be the first index position 
+remove even vowels TAKING LAST INDEX AS -1
+
+46. Retrieve the odd-position digits from input integer. Multiply them with their index and return their sum.
+47. Check if a given string is of specific format
+(i). includes validation like first three characters are capital.
+(ii). includes numbers in a specific format.
+48.count no.of vowels in a given string
+49.  Return the number of days in a month, where month and year are given as input
+50.  Retrieve the non-prime numbers within the range of a given input. Add-up the non-prime numbers and return the result.
+51. Retrieve the elements in a array, which is an input, which are greater than a specific input number. Add them and find the reverse of the sum.
+52.  Input1=845.69, output=3:2;
+    Input1=20.789; output=2:3;
+    Input1=20.0; output=2:1;  
+    output is in Hashmap format.
+    Hint: count the no of digits.
+
+53. HashMap<String,String> input1={“mouse”:”100.2”,”speaker”:”500.6”,”Monitor”:”2000.23”};
+    String[] input2={“speaker”,”mouse”};
+    Float output=600.80(500.6+100.2);
+
+54. perfect no or not?
+55. leap year or not using API?
+56. Add elements of digits:9999 
+    output:9+9+9+9=3+6=9;
+57.  input1="aBrd";
+    input2="aqrbA";
+    input3=2;
+    output1=boolean true;
+    2nd char of ip1 and last 2nd char of ip2 show be equal
+
+58. Getting the first and last n letters from a word where wordlength > 2n.
+    Ex: Input: california,3.
+        output: calnia.
+
+59. Find the Maximum span of the given array.
+    span is the number of elements between the duplicate element
+    including those 2 repeated numbers.
+    if the array as only one elemnt,then the span is 1.
+	input[]={1,2,1,1,3}
+	output1=4
+	input[]={1,2,3,4,1,1,5}
+	output1=6
+
+60.  Color Code Validation:
+	String should starts with the Character '#'.
+	Length of String is 7. 
+	It should contain 6 Characters after '#' Symbol.
+	It should contain Characters Between 'A-F' and Digits '0-9'.
+	if String is acceptable then Output1=1
+	else  Output1=-1;
+61.  input1 is a map<Integer,Float>
+    {1:2.3,2:5.6,3:7.7,4:8.4}
+    get the even number from keys and find the avg of values of these keys.
+    answer should be rounded to two numbers after decimal
+    eg:- the output number 15.2499999 should be 15.25
+
+62) ip: "this is sample test case"
+    op: "this amplec"
+    remove the duplicates in the given string
+
+63) String format : CTS-LLL-XXXX
+    ip1: CTS-hyd-1234
+    ip2: hyderabad
+    -> LLL must be first 3 letters of ip2.
+    -> XXXX must be a 4-digit number
+
+64. input1="the sun raises in the east";
+    output1=raises;
+    count no vowels in each word and print the word which has max
+    no of vowels if two word has max no of vowel print the first one
+
+65. input1={2,4,3,5,6};
+    if odd  find square 
+    if even find cube
+    finally add it
+    output1=208(4+16+27+125+36)
+
+66. i/p1: new york
+    i/p2: new jersey
+    o/p: new y+r+
+
+67.find the maximum chunk of a given string
+    i/p: this isssss soooo good
+    o/p=5
+
+68.  i/p: bengal
+    o/p: ceogbl
+    if z is there replace with a
+69.  swap the every 2 chrecters in the given string 
+    If size is odd number then keep the last letter as it is.
+    Ex:- input: forget
+	 output: ofgrte
+    Ex:- input  : NewYork
+         output : eNYwrok
+
+70. In a string check whether all the vowels are present
+    if yes return 1 else 2.
+    ex: String 1="education"
+        output=1.
+71. i/p: Honesty is my best policy
+    o/p: Honesty
+    Return the maximum word length from the given string.
+    If there are two words of same length then,
+    return the word which comes first based on alphabetical order.
+
+72.  concat two string if length of two string is equal.
+    if length of one string is greater, then remove the character from 
+    largest string and then add. The number of characters removed from 
+    largest string is equal to smallest string's length
+    for example: input 1="hello";
+                 input 2="helloworld";
+                 output="worldhello";
+
+73.  Return 1 if the last & first characters of a string are equal else 
+    return -1. Consider case.
+    Eg: Input = "this was great"
+        Output= 1
+
+74.  In a hashmap if key is odd then find average of value as integer
+    ex: h1={1:4,2:6,4:7,5:9}
+        output=(4+9)/2
+
+75.  pan card number validation:
+    all letters shud be in caps,shud be of 8 chars.
+    first three letters must be alphabets.
+    next 4 letters shud be digits and last letter shud be an alphabet
+]
+76.Validate Password
+    validation based on following criteria:
+  -> minimum length is 8
+  -> should contain any of these @/_/#
+  -> should not start with number/special chars(@/#/_)
+  -> should not end with special chars
+  -> can contain numbers,letters,special chars
+
+77. prove whether a number is ISBN number or not
+    input="0201103311"
+    ISBN number:  sum=0*10 +2*9+ 0*8 +1*7+ 1*6 +0*5+ 3*4 +3*3+ 1*2 +1*1
+    sum%11==0 then it is ISBN number
+
+78. input string="hello", n=2
+    output: lolo
+79. String i/p1=2012;
+    sTRING i/p2=5
+    IF EXPERIENCE IS GREATER THAN INPUT 2 THEN TRUE;
+
+80.  HashMap<String,Integer> h1={“abc”:50,”efg”:70};
+    if the mark is less than 60 then put the output in the
+    HashMap<String,String> h2={“abc”:”fail”,”efg”:”pass”}
+
+81. input --String input1 ="xaXafxsd"
+    output--String output1="aXafsdxx"
+    operation-- remove the character "x"(only lower case) from string and place at the end
+
+82. input1-- Hello*world
+    output-- boolean(true or false)
+    operation-- if the character before and after * are same return true else false
+                if there in no star in the string return false(Ignore case)
+
+83. input1-List1-{apple,orange,grapes}
+    input2-List2-{melon,apple,mango}
+    output={mango,orange}
+    operation-- In 1st list remove strings starting with 'a' or 'g'
+                In 2nd list remove strings ending with 'n' or 'e'
+    Ignore case, return in string array
+
+84. input---input1=1;
+            input2=4;
+            input3=1;
+    output1=4;
+    operation--- print the element which is not repeated    
+    if all the inputs r different sum all inputs
+    input---input1=1;
+            input2=2;
+            input3=3;
+    output1=6;
+
+85. Input1=”cowboy”; Output1=”cowcow”;
+    Input1=”so”;output1=”sososo”; 
+    HINT: if they give 3 letter word u have to display 2 time;
+
+86. input-- String input1="AAA/abb/CCC"
+    char input2='/'
+    output-- String[] output1;
+    output1[]={"aaa","bba","ccc"};
+
+    operation-- get the strings from input1  using stringtokenizer
+                reverse each string
+                then to lower case
+                finally store it in output1[] string array
+
+87. int[] input={2,1,4,1,2,3,6};
+    check whether the input has the sequence of "1,2,3". if so-
+    output=true;
+    int[] input={1,2,1,3,4,5,8};
+    output=false
+
+88. count the number of words in the string
+    Input string="i work in cognizant.";
+    output=4;
+
+89. String array will be given.if a string is Prefix of an any other string in that array means count.
+
+90. Collect no’s frm list1 which is not present in list2 
+    & Collect no’s frm list2 which is not present in list1
+    and store it in output1[].
+    ex: input1={1,2,3,4}; input2={1,2,3,5}; output1={4,5};
+
+91.  Input1=”Hello World”;  output-------à  “dello WorlH”.
+
+92.  input="hello"
+    output="hlo"; Alternative positions...
+
+93. input1=1 ,input2=2 ,input3=3 --- output=6;
+    input1=1 ,input2=13,input3=3 --- output=1;
+    input1=13,input2=2 ,input3=8 --- output=8;
+    if value equal to 13,escape the value '13', as well as the next value to 13.
+    sum the remaining values
+
+94. String[] input={"100","111","10100","10","1111"} input2="10"
+   output=2;count strings having prefix"10" but "10" not included in count
+   operation-- for how many strings input2 matches the prefix of each string in input1
+
+   String[] input={"01","01010","1000","10","011"}
+   output=3; count the strings having prefix"10","01" but "10","01" not included
+
+95. INPUT1= helloworld
+   INPUT2= 2. delete the char,if rpted twice.
+   if occurs more than twice,leave the first occurence and delete the duplicate
+   O/P= helwrd;
+
+96.  Input1={“ABX”,”ac”,”acd”};
+   Input2=3;
+   Output1=X$d
+
+97. I/P hashmap<String String>{"ram:hari","cisco:barfi","honeywell:cs","cts:hari"};
+   i/p 2="hari";
+   o/p string[]={"ram","cts"};
+
+98. Square root calculation of
+   ((x1+x2)*(x1+x2))+((y1+y2)*(y1+y2))
+   o/p should be rounded of to int;
+
+99. Email Validation
+   String input1="test@gmail.com"
+                1)@ & . should be present;
+                2)@ & . should not be repeated;
+                3)there should be five charcters between @ and .;
+                4)there should be atleast 3 characters before @ ;
+                5)the end of mail id should be .com;
+
+100.  String[] input1=["Vikas","Lokesh",Ashok]
+   expected output String: "Vikas,Lokesh,Ashok"
+
+101. Find the sum of the numbers in the given input string array
+   Input{“2AA”,”12”,”ABC”,”c1a”)
+   Output:6 (2+1+2+1)
+   Note in the above array 12 must not considered as such
+   i.e,it must be considered as 1,2
+
+101. Create a program to get the hashmap from the given input string array where the key for the hashmap
+   is first three letters of array element in uppercase and the value of hashmap is the element itself
+   Input:{“goa”,”kerala”,”gujarat”}                 [string array]
+   Output:{{GOA,goa},{KER,kerala},{GUJ,Gujarat}}    [hashmap]
+
+102. compare two strings, if the characters in string 1 are present in
+   string 2, then it should be put as such in output, else '+' should be
+   put in output...ignore case difference.
+
+	input 1:"New York"
+	input 2:"NWYR"
+
+	output:N+w+Y+r+
+
+package com.cognisant;
+
+public class Newyork {
+	
+
+		
+		public static void main(String[] args)
+
+
+		{
+
+		String input1 = "New York";
+
+		String input2 = "NWYR";
+
+		String output = "";
+
+
+		for (int i = 0; i < input1.length(); i++) {
+
+		String a = "" + input1.charAt(i);
+
+		int count = 0;
+
+		for (int j = 0; j < input2.length(); j++) {
+
+		String b = "" + input2.charAt(j);
+
+		if (a.equalsIgnoreCase(b)) {
+
+		count++;
+
+		}
+
+		}
+
+		if (count > 0) {
+
+		output = output + a;
+
+		} else {
+
+		output = output + '+';
+
+		}
+
+		}
+output=output.toString();
+
+		System.out.println(output);
+
+		}
+
+
+}
+
+
+103. input:
+	Searchstring s1="GeniusRajkumarDev";
+	String s2="Raj";
+	String s3="Dev";
+   output:
+        Return 1 if s2 comes before s3 in searchstring else return 2
+
+104. intput="xyzwabcd"
+    intput2=2;
+    input3=4;
+    output=bawz
+
+105.    Given integer array
+	input :int[] arr={2,3,5,4,1,6,7,7,9};
+
+Remove the duplicate elements and print sum of even numbers in the array..
+print -1 if arr contains only odd numbers
+
+106)	input1="abc2012345"
+	input2="abc2112660"
+	input 3=4
+here "abc**" refers to customer id.
+12345 refers to last month eb reading and 12660 refers to this month eb reading
+find the difference between two readings and multiply it by input3
+
+ie., output=(12660-12345)*4
+
+package com.cognisant;
+
+public class Summ {
+	public static void main(String[] args)
+	{
+String input1="abc2012345";
+String input2="abc2112660";
+
+String s1;
+String s2;
+
+String con="abc";
+
+ s1=input1.substring(5,input1.length());
+ s2=input2.substring(5,input1.length());
+ 
+ int diff=Integer.parseInt(s2)-Integer.parseInt(s1);
+ int out=diff*4;
+
+System.out.println(out);	
+
+}
+}
+
+
+
+107. Given array of intergers,print the sum of elements sqaring/cubing as per the power of their indices.         
+answer=  sum=sum+a[i]^i;
+     eg:input:{2,3,5}
+	Output:29
+
+108. Given array of string check whether all the elements contains only digits not any alaphabets.
+if condn satisfied print 1 else -1.
+Input:{"123","23.14","522"}
+output:1
+
+Input1:{"asd","123","42.20"}
+output:-1
+
+109. int[] a={12,14,2,26,35}
+find the difference b/w max and min values in array
+output:35-2=33.
+109. Given an array find the largest 'span'(span is the number of elements between two same digits)
+    find their sum.
+	a[]={1,4,2,1,4,1,5}
+	Largest span=5
+110. input={"1","2","3","4"}
+    output=10
+ie,if string elements are nos,add it.
+    input={"a","b"}
+    output=-1;
+
+111. arraylist1={ 1,2,3,4,5}
+    arraylist2={ 6,7,8,9,10}
+size of both list should be same 
+output={6,2,8,4,10}
+
+112.  count the number of times the second word in second string occurs in first string-case sensitive
+
+input1=hai hello hai where hai Hai;
+input2=what hai
+output=3;
+
+113. find the no.of charcters,that has repeated 3 consecutive times
+input1:"aaabbccc"
+ouput1=2;
+
+114. What will be the DAY of current date in next year
+
+115. Get all the numbers alone from the string and return the sum.
+
+Input"123gif"
+Output:6
+
+116. input array={red,green,blue,ivory}
+sort the given array
+reverse the given array
+if user input is 1 it should give oth element of an reversed array.
+
+117. Take the word with a max length in the given sentance
+ in that check for vowels if so count the no.of occurances !
+  Input 1="Bhavane is a good girl"
+  Output =3
+  Input 1="Bhavanee is a good girl"
+  Output =4
+
+118.  for the given string display the middle 2 value, case satisfies only if string is of even length
+ip - java
+op – av
+
+119. Given an array int a[]. Add the sum at even indexes.do the same with odd indexes.
+	if both the sum is equal return 1 or return -1.
+120. no of days in a month in specific year
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
