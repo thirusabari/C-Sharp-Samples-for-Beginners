@@ -1,0 +1,8 @@
+title: Sample-programs
+description: "Logical Programs  "
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
