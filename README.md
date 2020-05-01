@@ -1,4 +1,4 @@
 # Sample-Programs
 
-Above Programs are, First set of Programs,I were be solved from Different Websits for your reference.It is very Useful for all.Only Solutions will be available.With The Question names are saved as solution file.
+Above Programs are solved from Different Websites. Programming Questions - FileName/ Programming Solutions - File Content
 My  Goal is Improve our Logical Skills Through Practice.
