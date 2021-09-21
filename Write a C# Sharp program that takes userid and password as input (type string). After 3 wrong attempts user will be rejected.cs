@@ -21,7 +21,7 @@ namespace Logic_2
                 Console.WriteLine("Enter the Password");
                 string password = Console.ReadLine();
                 count++;
-                if (userid=="thiru"&&password=="arasu"&&count!=n)
+                if (userid=="thiru"&&password=="arasu"&&count<=n)
                 {
                     Console.WriteLine("The User  Authentication successfull");
                     break;
