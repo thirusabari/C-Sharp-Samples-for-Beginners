@@ -10,24 +10,29 @@ namespace ConsoleApplication91
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Number:");
-            string num = Console.ReadLine();
-            int i,L,sum=0;
-            L = num.Length;
-            for (i = 0; i < L; i++)
+           Console.WriteLine("Enter the string");
+            int num = Convert.ToInt32(Console.ReadLine());
+            int n, rem, sum = 0;
+            n = num;
+            while (n != 0)
             {
-                if (num[i] % 2 == 1)
+                rem = n % 10;
+                if(rem %2 == 1)
                 {
-                    sum = sum + num[i];
+                    sum = sum + rem;
                 }
+                n = n / 10;
             }
-            if (sum % 2 == 0)
+            Console.WriteLine("The sum Value={0}", sum);
+
+            if (sum%2 == 0)
             {
-                Console.WriteLine("-1");
+                Console.WriteLine("even", sum);
+
             }
             else
             {
-                Console.WriteLine("1");
+                Console.WriteLine("odd");
             }
 
             Console.ReadLine();
